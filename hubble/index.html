@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "author" content="Grupo Hubble">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubble</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ 
+<img src="https://img.freepik.com/premium-photo/space-telescope-hubble-white-background-3d-rendering_476612-19403.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708387200&semt=ais" alt="logo Hubble"class="logo">
+ 
+<div class="conteudo"> 
+    <div class="cx-texto">
+    <h2> A História das
+        <span><b>Galaxias</b></span></h2>
+    <p>A maioria das galáxias surgiu um pouco depois da formação do universo. Os cientistas acreditam que elas tenham, em média, entre 10 e 13,6 bilhões de anos! A galáxia mais nova de que se tem notícia nasceu há cerca de 500 milhões de anos. As estrelas são um dos corpos celestes que compõem as galáxias.
+    </p>
+   
+
+    <a href="https://mundoeducacao.uol.com.br/geografia/as-galaxias.htm"><button>Saiba Mais</button></a>
+
+
+</div>
+<div class="caixa-imagem">
+    <img src="https://desenhopracolorir.com.br/wp-content/uploads/2023/08/astronauta-para-colorir-0001.jpg" alt="astronauta 1"class="Star">
+</div>
+</div>
+<div class="menu">
+    <img src="https://images.creativefabrica.com/products/thumbnails/2023/10/08/wvxYUZrew/2WTFih5gyT9Cri95S0PgpaR42iI.png" class = "img astronauta">
+    
+    <img src="https://static.vecteezy.com/system/resources/previews/008/490/025/original/space-rocket-launch-png.png" class = "img foguete">
+    
+    <img src="https://img.freepik.com/fotos-premium/uma-pintura-de-uma-galaxia-espiral-com-uma-estrela-brilhante-no-centro_900958-118304.jpg" class = "img galaxia">
+
+    
+</div>
+
+</body>
+
+<footer id="roda-pe">
+      
+    <p>
+    © 2024 Grupo Hubble. All rights reserved
+</p></footer>
+
+<script>
+
+let img = document.querySelector(".Star")
+
+let astronauta = document.querySelector(".astronauta")
+let foguete = document.querySelector(".foguete")
+let galaxia = document.querySelector(".galaxia")
+
+foguete.addEventListener("click", () => {
+    console.log("fui clicado")
+    img.src = "https://static.vecteezy.com/system/resources/previews/008/490/025/original/space-rocket-launch-png.png"
+    
+})
+
+astronauta.addEventListener("click", () => {
+    console.log("fui clicado")
+    img.src = "https://images.creativefabrica.com/products/thumbnails/2023/10/08/wvxYUZrew/2WTFih5gyT9Cri95S0PgpaR42iI.png"
+    
+    
+})
+
+galaxia.addEventListener("click", () => {
+    console.log("fui clicado")
+    img.src = "https://img.freepik.com/fotos-premium/uma-pintura-de-uma-galaxia-espiral-com-uma-estrela-brilhante-no-centro_900958-118304.jpg"
+    
+})
+</script>
+
+
+
+</html>
+
